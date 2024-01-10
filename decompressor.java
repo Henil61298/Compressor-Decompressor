@@ -28,5 +28,6 @@ public class decompressor {
 
     public static void main(String[] args) throws IOException {
         File path = new File("Users/henil/Desktop");
+        method(file);
     }
 }
