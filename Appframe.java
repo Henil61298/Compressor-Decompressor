@@ -24,6 +24,7 @@ class Appframe extends JFrame implements ActionListener{
         decompressButton.addActionListener(this);
         this.add(compressButton);
         this.add(decompressButton);
+        this.setBounds(0, 0, 400, 400);
         this.getContentPane().setBackground(Color.BLACK);
         this.setVisible(true);
     }
